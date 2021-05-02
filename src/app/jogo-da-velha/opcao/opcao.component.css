@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: solid 1px;
 }
 
 .opcao-x::before,
@@ -25,6 +26,7 @@
 }
 
 .opcao-o {
+    border: solid 1px;
     border:4px solid black;    
     border-radius:50%;
     -moz-border-radius:50%;
