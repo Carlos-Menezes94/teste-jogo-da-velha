@@ -1,0 +1,12 @@
+.grid-4{
+    width: 33%;
+    display: inline-block;
+}
+.grid-6{
+    width: 50%;
+    display: inline-block;
+}
+.grid-3{
+    width: 25;
+    display: inline-block;
+}

@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     border: solid 1px;
+    align-items: center;
 }
 
 .opcao-x::before,
@@ -19,10 +20,12 @@
 
 .opcao-x::before {
     transform: rotate(45deg);
+    max-width: 235px;
 }
 
 .opcao-x::after {
     transform: rotate(-45deg);
+    max-width: 235px;
 }
 
 .opcao-o {
