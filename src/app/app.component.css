@@ -10,3 +10,9 @@
     width: 25;
     display: inline-block;
 }
+.placar{
+    align-items: center;
+    position: relative;
+    display: inherit;
+    left: 47%;
+}
