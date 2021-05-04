@@ -5,12 +5,17 @@
 </div>
 <div>
   <div class="grid-3">
-    <app-player></app-player>
+    <!-- <app-pesquisa [personagens]="personagens"></app-pesquisa> -->
+    <li class="lista" *ngFor="let item of personagens.data.results" (click)="getPersonagen1(item)" >{{item.name}}</li>
+    <hr>
+    <app-player [personagen]="personagen1"></app-player>
   </div>
   <div class="grid-6">
     <app-container></app-container>  
   </div>  
-  <div class="grid-3">
-    <app-player></app-player>
+  <div class="grid-3">    
+    <li class="lista" *ngFor="let item of personagens.data.results" (click)="getPersonagen2(item)" >{{item.name}}</li>
+    <hr>
+    <app-player [personagen]="personagen2"></app-player>
   </div>
 </div>

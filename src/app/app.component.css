@@ -16,3 +16,11 @@
     display: inherit;
     left: 47%;
 }
+.lista{
+    list-style: none;
+}
+.lista:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+}
